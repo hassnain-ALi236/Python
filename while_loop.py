@@ -1,0 +1,35 @@
+count=0
+while(count<101):
+    print(count)
+    count+=1
+count=100
+while(count>0):
+    print(count)
+    count-=1
+n1=int(input("Enter your Number : " ))
+i=1
+while(i<=10):
+    print(n1*i)
+    i+=1
+li=[1,4,9,16,25,36,49,64,81,100]
+while(li):
+    print(li.pop())
+li=[1,4,9,16,25,36,49,64,81,100]
+i=0
+while(i<len(li)):
+    print(li[i])
+    i+=1
+li=(1,4,9,16,25,36,49,64,81,100)
+x=9
+i=0
+while(i<len(li)):
+    if(x==li[i]):
+        print(int(li[i]),"is found at index",i)
+    i+=1
+z=1
+while(z<=10):
+    if(z==3):
+        z+=1
+        continue
+    print(z)
+    z+=1

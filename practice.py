@@ -36,10 +36,23 @@
 # print(type(grade))
 # return type converted into list
 # dictionary and set pratice
-dic={
-    "cat" :"a small animal",
-    "table" : ["a piece of furniture","ist of facts and figur"]
-}
-print(dic)
-classroom={"java","JS","C++","JS","java","Pyhton"}
-print(len(classroom))
+# dic={
+#     "cat" :"a small animal",
+#     "table" : ["a piece of furniture","ist of facts and figur"]
+# }
+# print(dic)
+# classroom={"java","JS","C++","JS","java","Pyhton"}
+# print(len(classroom))
+# n=int(input("Enter your number : "))
+# sum=0
+# i=1
+# while(i<=n):
+#     sum+=i
+#     i+=1
+# print(sum)
+# n1=int(input("Enter your number : "))
+n1=5
+fact=1
+for i in range(1,n1+1):
+    fact*=i
+print("Factorial of",n1,"is",fact)
