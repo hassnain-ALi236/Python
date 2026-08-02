@@ -23,7 +23,10 @@ info={
 }
 print(info)
 # print(info["subject"]["Math"])
-# dictanories method
+                      
+
+                                      # dictanories method
+
 # print(info.keys())
 # print(info.values())
 print(list(info.items())) #give values inthe form of pairs
