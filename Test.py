@@ -120,10 +120,9 @@ dic={
     "Grapes":2500
 }
 ask = input("Enter Your Fruit : ")
-if(ask==dic):
+if ask in dic:
     print("NOT ANY PRODUCT FOUND")
-elif(ask!=dic):
-    print(f"Your Fruit Price is {dic[ask]} ")
+else:
     # Task 13
 s1=set((1,2,3))
 s2=set((3,4,5))
@@ -132,3 +131,4 @@ print(s1.intersection(s2))
 # Task 14
 la=[1, 2, 2, 3, 4, 4, 5]
 print(set(la))
+print(type(la))
