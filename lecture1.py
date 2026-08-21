@@ -11,7 +11,7 @@
 # Name= "Umair Javed"
 # # this is called slicing
 # print (Name[1 : 3])
-# fruit = "Apple"y
+# fruit = "Apple"
 # # negative indexing is only applicable in python 
 # print(fruit[-3:-1])
 name= "ali hassnain"
