@@ -19,3 +19,24 @@ if(c1 == "f"):
 elif (c1 == "c"):
     Celsius=((c - 32)*5/9)
     print("Temp in Fahrenhite = " , Celsius)
+    # t4
+num=int(input("Enter Number : "))
+i=0
+while(i<=num):
+    print(num)
+    i+=1
+    # t5
+n1= int(input("Enter a Number : "))
+i=0
+sum=0
+while(i<=n1):
+    sum+=i
+    i+=1
+print(sum)
+# t6
+t=int(input("Enter Number : "))
+i=1
+while(i<=10):
+    print(i*t)
+    i+=1
+
