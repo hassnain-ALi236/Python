@@ -13,7 +13,7 @@ print(s1.Urdu)
 print(s1.Math)
 print(s1.Eng)
 print(s1.Average())
-we can also store marks in a list like given below
+# we can also store marks in a list like given below
 class Student:
     def __init__(self,Name,Marks):
         self.Name=Name
@@ -25,7 +25,7 @@ s1=Student("Ali Hassnain",[92,99,100])
 print(s1.Name)
 print(s1.Marks)
 print(s1.Average())
-if we dont want to use self as a parameter bcz self only use when we pass arguments but not when we make a simple print method for example
+# if we dont want to use self as a parameter bcz self only use when we pass arguments but not when we make a simple print method for example
 class car:
     @staticmethod
     def color():
