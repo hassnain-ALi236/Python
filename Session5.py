@@ -76,7 +76,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_csv("Mian.csv", index=False)  # CSV file save kar di taake load kar sakein
+df.to_csv("Mian.csv", index=False)  
 
 df = pd.read_csv("Mian.csv")
 print(" Original Data ")
